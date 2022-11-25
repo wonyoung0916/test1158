@@ -23,14 +23,10 @@ function mission($n, $k){
     return $result;
 }
 $result = mission($n, $k);
-echo "<pre>";
-var_dump($result);
-echo "<pre>";
+return $result;
 ?>
 <form method="get" action="mission.php">
     n값을 입력하세요<input type="text" name="nValue"><br>
     k값을 입력하세요<input type="text" name="kValue">    
     <button type="submit">전송</button>
 </form>
-예상 기대값
-3,6,2,7,5,1,4
